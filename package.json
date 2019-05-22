@@ -21,7 +21,7 @@
   },
   "author": "db-developer",
   "license": "MIT",
-  "homepage": "https://github.com/tsne/rollup-plugin-yatsc",
+  "homepage": "https://github.com/db-developer/rollup-plugin-yatsc",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/db-developer/rollup-plugin-yatsc.git"
