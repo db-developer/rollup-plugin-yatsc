@@ -1,0 +1,36 @@
+{
+  "name": "rollup-plugin-tsc",
+  "version": "1.1.15",
+  "description": "A small rollup plugin for transpiling typescript.",
+  "main": "dist/rollup-plugin-tsc.cjs.js",
+  "module": "dist/rollup-plugin-tsc.es.js",
+  "jsnext:main": "dist/rollup-plugin-tsc.es.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "keywords": [
+    "rollup",
+    "rollup-plugin",
+    "typescript",
+    "tsc"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "tsne",
+  "license": "MIT",
+  "homepage": "https://github.com/tsne/rollup-plugin-tsc",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsne/rollup-plugin-tsc.git"
+  },
+  "devDependencies": {
+    "rollup": "^0.67.4"
+  },
+  "dependencies": {
+    "tslib": "^1.9.3",
+    "typescript": "^3.2.2"
+  }
+}
