@@ -5,7 +5,7 @@ import {createService} from "./service";
 import {createTsConfig} from "./tsconfig"
 
 
-export default function tsc(config) {
+export default function yatsc(config) {
 
   const tsConfig  = createTsConfig(config);
 	const loadTslib = tslibLoader();
