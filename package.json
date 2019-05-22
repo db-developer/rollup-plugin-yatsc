@@ -1,10 +1,10 @@
 {
-  "name": "rollup-plugin-tsc",
-  "version": "1.1.15",
-  "description": "A small rollup plugin for transpiling typescript.",
-  "main": "dist/rollup-plugin-tsc.cjs.js",
-  "module": "dist/rollup-plugin-tsc.es.js",
-  "jsnext:main": "dist/rollup-plugin-tsc.es.js",
+  "name": "rollup-plugin-yatsc",
+  "version": "0.1.0",
+  "description": "yet another rollup plugin for typescript",
+  "main": "dist/rollup-plugin-yatsc.cjs.js",
+  "module": "dist/rollup-plugin-yatsc.es.js",
+  "jsnext:main": "dist/rollup-plugin-yatsc.es.js",
   "files": [
     "dist",
     "README.md"
@@ -19,12 +19,12 @@
     "build": "rollup -c",
     "prepublishOnly": "npm run build"
   },
-  "author": "tsne",
+  "author": "db-developer",
   "license": "MIT",
-  "homepage": "https://github.com/tsne/rollup-plugin-tsc",
+  "homepage": "https://github.com/tsne/rollup-plugin-yatsc",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tsne/rollup-plugin-tsc.git"
+    "url": "git+https://github.com/db-developer/rollup-plugin-yatsc.git"
   },
   "devDependencies": {
     "rollup": "^0.67.4"
