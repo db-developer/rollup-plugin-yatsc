@@ -27,7 +27,7 @@
     "url": "git+https://github.com/db-developer/rollup-plugin-yatsc.git"
   },
   "devDependencies": {
-    "rollup": "^0.67.4"
+    "rollup": "^2.79.2"
   },
   "dependencies": {
     "tslib": "^1.9.3",
